@@ -5,7 +5,7 @@ import Card from "../components/Card";
 
 
 const Home = () => {
-  const url = "http://localhost:5000";
+  const url = "https://gofood-backend-sbj4.onrender.com";
   const [search, setSearch] = useState('');
   const [foodCat, setFoodCat] = useState([]);
   const [foodItem, setFoodItem] = useState([]);
