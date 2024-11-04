@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 export default function MyOrder() {
   const [orderData, setorderData] = useState({});
   const [foodItem, setFoodItem] = useState([]);
-  const url = "http://localhost:5000";
+  const url = "https://gofood-backend-sbj4.onrender.com";
   const loadData = async () => {
     try {
       const response = await fetch(url + "/api/foodData", {
