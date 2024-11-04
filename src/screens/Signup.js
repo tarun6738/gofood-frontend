@@ -10,7 +10,7 @@ const Signup = () => {
   });
 
   const navigate = useNavigate()
-  const url = "http://localhost:5000";
+  const url = "https://gofood-backend-sbj4.onrender.com";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
