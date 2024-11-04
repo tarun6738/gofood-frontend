@@ -4,7 +4,7 @@ import trash from "../trash.svg";
 export default function Cart() {
   let data = useCart();
   let dispatch = useDispatchCart();
-  const url = "http://localhost:5000"
+  const url = "https://gofood-backend-sbj4.onrender.com"
   
   if (data.length === 0) {
     return (
