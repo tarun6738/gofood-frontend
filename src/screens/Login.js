@@ -9,7 +9,7 @@ const Login = () => {
   let navigate = useNavigate();
 
   const handleSubmit = async (e) => {
-    const url = "http://localhost:5000";
+    const url = "https://gofood-backend-sbj4.onrender.com";
     e.preventDefault();
     const response = await fetch(url + "/api/loginuser", {
       method: "POST",
